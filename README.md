@@ -68,3 +68,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 =======
 # laravel-task
 >>>>>>> 237c703ac5b2319236fc20bbde2e651248b8f315
+
+
+# Run project
+Step First take pull,
+Step Second run migration,
+Step Third run db:seed,
+Step Fourth - http://127.0.0.1:8000/task/tasks/
