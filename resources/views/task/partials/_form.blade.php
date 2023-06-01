@@ -34,6 +34,11 @@
       @endforeach
   </select>  
   </div>   
+  @if($states->isEmpty()==true)
+      <div class="alert alert-danger" role="alert">
+        Please run the migration first for state
+      </div>
+      @else
   <div class="mb-3">
     <label for="state" class="form-label">State</label>
     <select name="state" id="state" class="form-control">
@@ -46,6 +51,7 @@
       @endforeach
     </select>
   </div>
+  @endif
   <div class="mb-3">
     <label for="city" class="form-label">City</label>
     <select name="city" id="city" class="form-control">
